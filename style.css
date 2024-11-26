@@ -170,11 +170,6 @@ button[type="submit"]:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-}
-
 form label, form select, form input {
     margin-bottom: 10px;
 }
