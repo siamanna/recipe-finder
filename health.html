@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Recipe Finder</title>
+</head>
+<body>
+    <div class="profile-container">
+        <h2>Create Your Health Profile</h2>
+        <form id="healthProfileForm">
+            <label for="goal">Health Goal:</label>
+            <select id="goal" name="goal">
+                <option value="weight-loss">Weight Loss</option>
+                <option value="muscle-gain">Muscle Gain</option>
+                <option value="heart-health">Heart Health</option>
+                <option value="energy-boost">Energy Boost</option>
+                <option value="general-wellness">General Wellness</option>
+            </select>
+            
+            <label for="diet">Dietary Preferences:</label>
+            <select id="diet" name="diet">
+                <option value="vegan">Vegan</option>
+                <option value="gluten-free">Gluten-Free</option>
+                <option value="keto">Keto</option>
+                <option value="paleo">Paleo</option>
+                <option value="none">None</option>
+            </select>
+
+            <label for="allergies">Allergies (optional):</label>
+            <input type="text" id="allergies" name="allergies" placeholder="e.g., nuts, dairy">
+
+            <button type="submit">Save Profile</button>
+        </form>
+    </div>
+
+    <div id="recipeSuggestions">
+        <!-- Recipe suggestions will appear here -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -21,6 +21,8 @@ body::before {
     z-index: -1; /* Keeps the background behind other elements */
 }
 
+
+
 /* Header Style */
 header {
     background-color: rgba(255, 255, 255, 0.9);
@@ -157,4 +159,39 @@ button[type="submit"]:hover {
 
 #results a:hover {
     background-color: #0056b3;
+}
+
+
+.profile-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label, form select, form input {
+    margin-bottom: 10px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+#recipeSuggestions {
+    margin-top: 20px;
 }
